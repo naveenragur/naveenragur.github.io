@@ -1079,3 +1079,35 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+.button {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    margin-top: 1em;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button i {
+    margin-left: 0.5em;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.button:hover i {
+    transform: translateY(3px);
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
