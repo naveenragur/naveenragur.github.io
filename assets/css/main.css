@@ -1111,3 +1111,11 @@ input, select, textarea {
 html {
     scroll-behavior: smooth;
 }
+html, body {
+    height: auto;
+    overflow: auto;
+}
+
+#wrapper {
+    min-height: 100vh;
+}
